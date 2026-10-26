@@ -24,7 +24,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/Z4KTQ9RN9Q'
   }));
 
   // ===== CALCULATOR =====
-  const RATE = 130;
+  const RATE = 110;
   const area = document.getElementById('calcArea');
   const range = document.getElementById('calcRange');
   const sum = document.getElementById('calcSum');
@@ -104,7 +104,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/Z4KTQ9RN9Q'
 
   // Reveal on scroll
   const targets = document.querySelectorAll(
-    '.adv__item, .svc, .aud, .step, .faq__item, .form, .hero__card, .calc__box, .price-row'
+    '.adv__item, .svc, .aud, .step, .faq__item, .form, .hero__card, .calc__box, .price-row, .work'
   );
   targets.forEach(el => el.classList.add('reveal'));
   const io = new IntersectionObserver(entries => {
